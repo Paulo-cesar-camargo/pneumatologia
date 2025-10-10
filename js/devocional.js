@@ -13,8 +13,8 @@ select.value = 1;
 
 // === Respostas fixas (preencher manualmente depois) ===
 const respostasFixas = {
-  1: {a1:"Neste momento o espirito santo ainda não havia sido derramado totalmente isso aconteceu em Atos 2 no dia de pentecoste mais ja estava em ação preparando os coraçoes e os dicipulos para o dia de pentecoste ",
-      a2:"Buacar com fé e ouvir atentamente a palavra de Deus para que possa  dar lugar para que o espirito santo de Deus possa trabalhar em minha vida  ",
+  1: {a1:"Neste momento o espirito santo ainda não havia sido derramado totalmente isso aconteceu em Atos 2 no dia de pentecoste mais já estava em ação preparando os corações e os dicípulos para o dia de pentecoste ",
+      a2:"Buscar com fé e ouvir atentamente a palavra de Deus para que possa  dar lugar para que o espirito santo de Deus possa trabalhar em minha vida  ",
       a3:"Separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida "},
   2: {a1:"", a2:"", a3:""},
   3: {a1:"", a2:"", a3:""},
@@ -129,4 +129,5 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
