@@ -1,0 +1,63 @@
+/* Reset básico */
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+
+body, html{width:100%;height:100%;overflow:hidden;background:#111;}
+
+canvas#bgCanvas{position:fixed;inset:0;z-index:0;}
+
+/* Container central */
+.container{
+  position:relative;
+  z-index:2;
+  max-width:500px;
+  margin:0 auto;
+  top:50%;
+  transform:translateY(-50%);
+  padding:30px;
+  background:rgba(255,255,255,0.85);
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Título */
+.container h1{
+  font-size:1.8rem;
+  color:#222;
+  margin-bottom:20px;
+}
+
+/* Info aluno/professor/matéria */
+.info{
+  margin-bottom:25px;
+  text-align:left;
+  font-weight:600;
+  color:#333;
+}
+
+.info p{margin:5px 0;}
+
+/* Botão entrar */
+#entrar{
+  background:#ffd166;
+  color:#111;
+  font-weight:700;
+  padding:12px 25px;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  transition:all 0.3s ease;
+  margin-top:10px;
+}
+
+#entrar:hover{
+  background:#ffb347;
+  transform:scale(1.05);
+}
+
+/* Footer */
+footer{
+  margin-top:25px;
+  font-size:0.85rem;
+  color:#555;
+}

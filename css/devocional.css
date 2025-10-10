@@ -1,0 +1,102 @@
+/* Reset básico */
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;}
+
+body, html{width:100%;height:100%;overflow:hidden;color:#111;}
+
+canvas#bgCanvas{
+  position:fixed;
+  inset:0;
+  z-index:0;
+}
+
+/* Container central do conteúdo */
+.container{
+  position:relative;
+  z-index:2;
+  max-width:900px;
+  margin:50px auto;
+  padding:25px;
+  background:rgba(255,255,255,0.85);
+  border-radius:15px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Topbar com título e select */
+.topbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.topbar h1{
+  font-size:1.5rem;
+  color:#111;
+}
+
+.topbar select{
+  padding:8px 12px;
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.2);
+  background:rgba(255,255,255,0.9);
+  cursor:pointer;
+}
+
+/* Perguntas e respostas */
+.questions{
+  display:grid;
+  gap:15px;
+}
+
+.questions .q{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.questions textarea{
+  width:100%;
+  min-height:80px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid rgba(0,0,0,0.2);
+  resize:vertical;
+}
+
+/* Footer */
+footer{
+  margin-top:25px;
+  font-size:0.85rem;
+  color:#555;
+  text-align:center;
+}
+
+/* BACKGROUNDS DIFERENTES POR CAPÍTULO */
+body.cap1{background:linear-gradient(120deg,#2b5876,#4e4376);}
+body.cap2{background:linear-gradient(120deg,#ff6e7f,#bfe9ff);}
+body.cap3{background:linear-gradient(120deg,#43cea2,#185a9d);}
+body.cap4{background:linear-gradient(120deg,#ff512f,#dd2476);}
+body.cap5{background:linear-gradient(120deg,#24c6dc,#514a9d);}
+body.cap6{background:linear-gradient(120deg,#4776e6,#8e54e9);}
+body.cap7{background:linear-gradient(120deg,#f7971e,#ffd200);}
+body.cap8{background:linear-gradient(120deg,#00c3ff,#ffff1c);}
+body.cap9{background:linear-gradient(120deg,#ee9ca7,#ffdde1);}
+body.cap10{background:linear-gradient(120deg,#2193b0,#6dd5ed);}
+body.cap11{background:linear-gradient(120deg,#cc2b5e,#753a88);}
+body.cap12{background:linear-gradient(120deg,#42275a,#734b6d);}
+body.cap13{background:linear-gradient(120deg,#373b44,#4286f4);}
+body.cap14{background:linear-gradient(120deg,#ff416c,#ff4b2b);}
+body.cap15{background:linear-gradient(120deg,#00b09b,#96c93d);}
+body.cap16{background:linear-gradient(120deg,#c33764,#1d2671);}
+body.cap17{background:linear-gradient(120deg,#136a8a,#267871);}
+body.cap18{background:linear-gradient(120deg,#614385,#516395);}
+body.cap19{background:linear-gradient(120deg,#141e30,#243b55);}
+body.cap20{background:linear-gradient(120deg,#ff6a00,#ee0979);}
+body.cap21{background:linear-gradient(120deg,#1f4037,#99f2c8);}
+body.cap22{background:linear-gradient(120deg,#20002c,#cbb4d4);}
+body.cap23{background:linear-gradient(120deg,#1c92d2,#f2fcfe);}
+body.cap24{background:linear-gradient(120deg,#485563,#29323c);}
+body.cap25{background:linear-gradient(120deg,#5f2c82,#49a09d);}
+body.cap26{background:linear-gradient(120deg,#e96443,#904e95);}
+body.cap27{background:linear-gradient(120deg,#8360c3,#2ebf91);}
+body.cap28{background:linear-gradient(120deg,#56ccf2,#2f80ed);}
