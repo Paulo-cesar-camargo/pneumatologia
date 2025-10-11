@@ -16,7 +16,7 @@ const respostasFixas = {
   1: {a1:"Neste momento o espirito santo ainda não havia sido derramado totalmente isso aconteceu em Atos 2 no dia de pentecoste mais já estava em ação preparando os corações e os dicípulos para o dia de pentecoste ",
       a2:"Buscar com fé e ouvir atentamente a palavra de Deus para que possa  dar lugar para que o espirito santo de Deus possa trabalhar em minha vida  ",
       a3:"Separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida "},
-  2: {a1:"", a2:"", a3:""},
+  2: {a1:"Naque dia de do grande pentecoste o espírito santo veio sobre todos as pessoas de várias línguas e nações diferentes fazendo com que cada um por meio do espírito santo de Deus pudesse entender um ao outro podendo assim ouvir a maravilhosa palavra de Deus ali ministrada pelos apóstolos e sentir o o alívio e refrigério em suas vidas ", a2:"", a3:"Acredito que boa parte dos 28 capítulos terão está mesma resposta pois não outra maneira de se aproximar mais do espírito santa se não for por meio de estar sempre separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida  "},
   3: {a1:"", a2:"", a3:""},
   4: {a1:"", a2:"", a3:""},
   5: {a1:"", a2:"", a3:""},
