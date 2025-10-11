@@ -18,7 +18,7 @@ const respostasFixas = {
       a3:"Separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida "},
   2: {a1:"Naque dia de do grande pentecoste o espírito santo veio sobre todos as pessoas de várias línguas e nações diferentes fazendo com que cada um por meio do espírito santo de Deus pudesse entender um ao outro podendo assim ouvir a maravilhosa palavra de Deus ali ministrada pelos apóstolos e sentir o o alívio e refrigério em suas vidas ",
       a2:"> Enchei-vos do Espírito (Efésios 5:18) Como aplicar em minha vida nos dias de hoje orar diariamente pedindo que o Espírito dirija minhas palavras, decisões e atitudes. Lendo a Bíblia com o coração aberto para ouvira voz do espírito santo de Deus.",
-      a3:"Acredito que boa parte dos 28 capítulos terão está mesma resposta pois não outra maneira de se aproximar mais do espírito santa se não for por meio de estar sempre separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida  "},
+      a3:"Acredito que boa parte dos 28 capítulos terão está mesma resposta pois não encontro outra maneira de se aproximar mais do espírito santo se não for por meio de estar sempre separando um tempo diário com Deus , Obedecendo fielmente a Deus , Mantendo uma plena comunhão com Deus , Se santificando  e se arrependendo com sinceridade e pedir a companhia diária do espirito sento e sua vida  "},
   3: {a1:"", a2:"", a3:""},
   4: {a1:"", a2:"", a3:""},
   5: {a1:"", a2:"", a3:""},
@@ -131,6 +131,7 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
