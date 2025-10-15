@@ -100,3 +100,14 @@ body.cap25{background:linear-gradient(120deg,#5f2c82,#49a09d);}
 body.cap26{background:linear-gradient(120deg,#e96443,#904e95);}
 body.cap27{background:linear-gradient(120deg,#8360c3,#2ebf91);}
 body.cap28{background:linear-gradient(120deg,#56ccf2,#2f80ed);}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* cor do botão */
+    color: white; /* cor do texto */
+    text-decoration: none; /* remove sublinhado */
+    border-radius: 5px; /* cantos arredondados */
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
