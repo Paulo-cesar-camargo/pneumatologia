@@ -111,3 +111,14 @@ body.cap28{background:linear-gradient(120deg,#56ccf2,#2f80ed);}
     font-weight: bold;
     transition: background-color 0.3s;
 }
+.resposta {
+    width: 100%;
+    min-height: 60px;   /* altura inicial */
+    max-height: 400px;  /* altura máxima opcional */
+    padding: 8px;
+    font-size: 16px;
+    resize: none;       /* desativa resize manual */
+    overflow: hidden;   /* remove barra de scroll */
+    box-sizing: border-box;
+}
+
