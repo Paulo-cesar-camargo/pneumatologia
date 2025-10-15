@@ -127,12 +127,34 @@ select.onchange = ()=>{
   gerarParticulas(cap);
   atualizarFundo(cap);
 };
+// === Faz a textarea crescer automaticamente ===
+function autoGrow(textarea){
+    textarea.style.height = "auto"; // reseta a altura
+    textarea.style.height = textarea.scrollHeight + "px"; // ajusta à altura do conteúdo
+}
+
+// Aplica a todas as textareas de respostas ao digitar
+document.querySelectorAll('.resposta').forEach(t => {
+    t.addEventListener('input', ()=>autoGrow(t));
+});
+
+// === Função para carregar respostas ===
+function carregarRespostas(cap){
+    const resp = respostasFixas[cap] || {a1:"", a2:"", a3:""};
+    document.getElementById('a1').value = resp.a1;
+    document.getElementById('a2').value = resp.a2;
+    document.getElementById('a3').value = resp.a3;
+
+    // Ajusta a altura das textareas após preencher o conteúdo
+    document.querySelectorAll('.resposta').forEach(t => autoGrow(t));
+}
 
 // === Inicializa página ===
 carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
