@@ -22,11 +22,21 @@ const respostasFixas = {
   3: {a1:"Espírito Santo está capacitando os discípulos Pedro e João a realizar milagres e pregar a mensagem de Jesus com ousadia. E guiando-os para agir no momento certo, transformando a fé em poder e em nome de Jesus curar o homem aleijado",
       a2:"Acredito que nada é impossível para aquele que crê da mesma forma que Pedro e João curou o aleijado através da fé em nome de Jesus podemos também fazer os mesmos feitos pedindo para a cada dia a nossa fé seja acrescentada mais e mais de forma que possamos ser mais guiados pelo Espirito Santo ",
       a3:"Oração constante, pedindo direção e sabedoria. Estudo da Bíblia, conhecendo a vontade de Deus. Obediência, mesmo quando não entendemos tudo. Sensibilidade, percebendo oportunidades de ajudar ou compartilhar fé"},
-  4: {a1:"", a2:"", a3:""},
-  5: {a1:"", a2:"", a3:""},
-  6: {a1:"", a2:"", a3:""},
-  7: {a1:"", a2:"", a3:""},
-  8: {a1:"", a2:"", a3:""},
+  4: {a1:"O espirito santo esta enchendo os crentes em resposta à perseguição e oração, concedendo-lhes ousadia  para proclamar a Palavra de Deus.", 
+      a2:"Reabastecer a coragem e continuar a fazer a vontade de Deus em tempo e fora de tempo.", 
+      a3:"Orando pedindo ousadia em meio a perseguição, e a dificuldade buscando ser cheio do Espírito Santo de Deus"},
+  5: {a1:"Esta mostrando que a igreja tem que ser pura e seria em seus propositos punindo a Ananias e Safira oela sua mentira e acresentando os milagres atraves dos dicipulos por meio do espirito santo", 
+      a2:"Aprendo que o espirito santo estando presente em nos todos os dia devemos ter prudencia em nossas feitas falas e açoes pois ele esta sempre a nos observar", 
+      a3:"Evitando as mentiras hipocresia e tudo aquilo que não agrada a Deus obedecendo a deus acima de tudo "},
+  6: {a1:"Estava enchendo Estêvão com sabedoria, fé e poder, resultando em milagres e numa pregação abençoada pelo espirito e capacitando os novos diaconos .", 
+      a2:"O serviço a Deus deve ser feito por pessoas cheias do Espírito e de sabedoria, mantendo o foco na Palavra e na oração.", 
+      a3:"dedicando tempo à oração para que o Espírito me capacite em minhas tarefas."},
+  7: {a1:"Estevão esta confrontando os lideres de israel confrontando a dureze de seus coraçoes mostrando a gloria de jesus em sua morte ao fim Estevão é apedrejado e ve os ceus aberto ", 
+      a2:"Ter a certeza que a coragem que esta em nos é fruto do espirito santo em nossas vidas sabendo que minha recompensa vem de Deus.", 
+      a3:"Mantendo meu foco em cristo que é meu alvo mesmo em meio a dor e dificuldade que venha em cristo sou mais que vencedor "},
+  8: {a1:"Em meio a tantos milagres deste cap 8 eles estão espandindo o evangelio atraves de felipe para samaria e para o eunuco etíope levando a palavra para outras regioes", 
+      a2:"Esta nos encinando que devemos levar a palavra para qualquer pessoa independente da sua crença ou tipo de pensamento ", 
+      a3:"Estando pronto para explicar as Escrituras para quem busca a verdade em qualquer lugar onde o espirito santo mandar ."},
   9: {a1:"", a2:"", a3:""},
   10:{a1:"", a2:"", a3:""},
   11:{a1:"", a2:"", a3:""},
@@ -154,6 +164,7 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
