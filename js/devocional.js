@@ -43,7 +43,9 @@ const respostasFixas = {
   10:{a1:"O espirito santo esta provando que a salvação é para todos por meio da fé atraves do derramamento do espirito santo a casa de cornelio atraves de uma visão dada a Pedro ", 
       a2:"Aprender que o espírito santo destrói barreiras culturais e preconceitos na proclamação do Evangelho", 
       a3:"Deixando de me manter em uma zona de conforto religiosa e seguindo a liderança do Espírito santo para alcançar a todos que estão necessitados."},
-  11:{a1:"", a2:"", a3:""},
+  11:{a1:"", 
+      a2:"", 
+      a3:""},
   12:{a1:"", a2:"", a3:""},
   13:{a1:"", a2:"", a3:""},
   14:{a1:"", a2:"", a3:""},
@@ -168,6 +170,7 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
