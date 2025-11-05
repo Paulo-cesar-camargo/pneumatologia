@@ -37,8 +37,12 @@ const respostasFixas = {
   8: {a1:"Em meio a tantos milagres deste cap 8 eles estão espandindo o evangelio atraves de felipe para samaria e para o eunuco etíope levando a palavra para outras regioes", 
       a2:"Esta nos encinando que devemos levar a palavra para qualquer pessoa independente da sua crença ou tipo de pensamento ", 
       a3:"Estando pronto para explicar as Escrituras para quem busca a verdade em qualquer lugar onde o espirito santo mandar ."},
-  9: {a1:"", a2:"", a3:""},
-  10:{a1:"", a2:"", a3:""},
+  9: {a1:"Neste momento o espirito santo esta agindo na conversão de Saulo de Tarso o perseguidor e confirmando essa mudança a Ananias com uma visão.", 
+      a2:"Aprender a aceitar que qualquer pessoa pode ser transformada pelo espirito santo independente do pecado que tenha cometido ", 
+      a3:"Sendo obediente e confiante nas direções do Espírito, mesmo que me peçam para interagir com alguém que eu considerava um pecador ou inimigo."},
+  10:{a1:"O espirito santo esta provando que a salvação é para todos por meio da fé atraves do derramamento do espirito santo a casa de cornelio atraves de uma visão dada a Pedro ", 
+      a2:"Aprender que o espírito santo destrói barreiras culturais e preconceitos na proclamação do Evangelho", 
+      a3:"Deixando de me manter em uma zona de conforto religiosa e seguindo a liderança do Espírito santo para alcançar a todos que estão necessitados."},
   11:{a1:"", a2:"", a3:""},
   12:{a1:"", a2:"", a3:""},
   13:{a1:"", a2:"", a3:""},
@@ -164,6 +168,7 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
