@@ -73,14 +73,30 @@ const respostasFixas = {
   20:{a1:"Guiando Paulo em sua jornada e o preparando para enfrentar prisões e sofrimentos por amor a Cristo.", 
       a2:"Me fortalecer no espirito santo e obedecer mesmo em caminhos difíceis.", 
       a3:"Confiando na direção do Espírito santo e permanecer fiel até o fim."},
-  21:{a1:"", a2:"", a3:""},
-  22:{a1:"", a2:"", a3:""},
-  23:{a1:"", a2:"", a3:""},
-  24:{a1:"", a2:"", a3:""},
-  25:{a1:"", a2:"", a3:""},
-  26:{a1:"", a2:"", a3:""},
-  27:{a1:"", a2:"", a3:""},
-  28:{a1:"", a2:"", a3:""}
+  21:{a1:"Revelando aos discípulos o que Paulo enfrentará e o preparando-os para obedecer.", 
+      a2:"Aprender a enfrentar os desafios e a ouvir os avisos do espirito sanro ", 
+      a3:"Estando disposto a obedecer mesmo quando a direção envolve sacrifício."},
+  22:{a1:"Dando ousadia a Paulo para testemunhar sobre sua conversão diante dos judeus.", 
+      a2:"O espirito santo usa nossas historias e vivenvia pra testemunhar e engrandecer o nome de Deus", 
+      a3:"Testemunhando com coragem o que o Espírito santo já fez em minha vida."},
+  23:{a1:"Protegendo Paulo contra as conspirações e o encoraja a seguir diante e firme em direção a Roma.", 
+      a2:"Confiar em Deus porque o espirito santo sempre nos guarda e nos direciona a fazer o certo mesmo que seja dificel", 
+      a3:"Confiando sempre na presença constante dele em minha vida "},
+  24:{a1:"Dando sabedoria a Paulo em sua defesa diante das autoridades.", 
+      a2:"Ouvindo o espirito santo que nos ajuda a responder com verdade e sabedoria diante das injustiças do mundo", 
+      a3:"Buscar calma antes de reagir em situações difíceis."},
+  25:{a1:"Permitindo que Paulo use sua dupla cidadania para chegar a Roma e cumprir os planos de Deus.", 
+      a2:"Aprender a utilizar de situações humans para fazer a obra espiritual enviada por Deus", 
+      a3:"Usar com sabedoria as oportunidades que Deus coloca em nossas mãos."},
+  26:{a1:"Capacitando Paulo a testemunhar diante de reis e governadores com poder sabedoria e convicção.", 
+      a2:"Aprender que em qualque lugar e hora em tempo e fora de tempo devo ter coragem para proclamar o nome do senhor ", 
+      a3:"Permitir que Ele nos use com ousadia e sabedoria em cada oportunidade."},
+  27:{a1:"Guiando Paulo durante uma tempestade e o usando-o para trazer esperança à tripulação.", 
+      a2:"Entender que mesmo nas dificuldades da vida, o Espírito continua nos conduzindo com propósito.", 
+      a3:"Confiando. firme nas promessas de Jesus Meu Mestre Firme firme sim firme nas promessas de Jesus."},
+  28:{a1:"Opera milagres por meio de Paulo e espalha o Evangelho até Roma, cumprindo a missão.", 
+      a2:"Permanecer sempre firme nas promessas e confiante nos planos de Deus para minha vida ", 
+      a3:"Permitindo que o Espírito use minha vida para impactar outras onde eu estiver devo ser luz ."}
 };
 
 // === Funções para carregar respostas ===
@@ -188,6 +204,7 @@ carregarRespostas(1);
 gerarParticulas(1);
 atualizarFundo(1);
 animate();
+
 
 
 
